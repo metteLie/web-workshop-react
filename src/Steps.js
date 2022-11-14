@@ -12,7 +12,7 @@ SyntaxHighlighter.registerLanguage('css', css);
 const code1 = 'return(\n    <div>\n        <h1> Blog </h1>\n        <h2> Homepage </h2>\n    </div>\n)';
 const code2 = 'return(\n     <div>\n          Four = {2+2}\n      </div> \n);';
 const code3 = 'return(\n    <div>\n        <button>Click!</button>\n    </div>\n)';
-const code4 = 'button  {\n    background-color: #6767ac;\n    padding: 15px 32px;\n    font-size: 16px;\n    border-radius: 5px;\n}';
+const code4 = 'button{\n    width: 60px;\n    height: 30px;\n    border-radius: 4px;\n    font-weight: bold;\n}'
 const code5 = 'const [likes, setLikes] = useState(0);\nconst handleClick = () => {\n    setLikes(likes+1)\n};\nreturn (\n    <div>\n        <div>Liked: {likes}time(s)</div>\n        <button onClick={handleClick}>Like</button>\n    </div>';
 const code6 = 'return(\n    <div>\n        <iframe width="787" height="443" src="..." title="..." ...> </iframe>\n    </div>'
 
