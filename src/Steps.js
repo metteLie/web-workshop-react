@@ -11,7 +11,7 @@ SyntaxHighlighter.registerLanguage('css', css);
 
 const code1 = 'return(\n    <div>\n        <h1> Blog </h1>\n        <h2> Homepage </h2>\n    </div>\n)';
 const code2 = 'return(\n     <div>\n          Four = {2+2}\n      </div> \n);';
-const code3 = 'return(\n    <div>\n        <button>Click!</button>\n    </div>\n)';
+const code3 = 'return(\n    <div>\n        <button>Like</button>\n    </div>\n)';
 const code4 = 'button{\n    width: 60px;\n    height: 30px;\n    border-radius: 4px;\n    font-weight: bold;\n}'
 const code5 = 'const [likes, setLikes] = useState(0);\nconst handleClick = () => {\n    setLikes(likes+1)\n};\nreturn (\n    <div>\n        <div>Liked: {likes}time(s)</div>\n        <button onClick={handleClick}>Like</button>\n    </div>';
 const code6 = 'return(\n    <div>\n        <iframe width="787" height="443" src="..." title="..." ...> </iframe>\n    </div>'
@@ -55,6 +55,8 @@ export const Steps = [
                 <SyntaxHighlighter language="jsx" style={prism}>
                     {code3}
                 </SyntaxHighlighter>
+                <div className='subtitle'>Task:</div>
+                Make a dislike button
             </div>
         </div>,
     panel: 'panel3'  
@@ -68,7 +70,7 @@ export const Steps = [
                     {code4}
                 </SyntaxHighlighter>
                 <div className='subtitle'>Task:</div>
-                Create your own css for your button
+                Hover different for like and dislike button
             </div>
         </div>,
     panel: 'panel4'   
@@ -82,8 +84,7 @@ export const Steps = [
                     {code5}
                 </SyntaxHighlighter>
                 <div className='subtitle'>Task:</div>
-                Add a dislike button <br />
-                Change the hover background and text color for the dislike button
+                Now do the same for dislike button
             </div>
         </div>,
     panel: 'panel5'  
@@ -101,11 +102,9 @@ export const Steps = [
                     {code6}
                 </SyntaxHighlighter>
                 <div className='subtitle'>Task:</div>
-                Navigate to index.css and create css for the video: <br />
-                <Checkbox size='small'/> resize  <br />
-                <Checkbox size='small'/> center <br />
-                <Checkbox size='small'/> set a border-radius <br />
-                
+                <Checkbox size='small'/> Add a dislike icon  <br />
+                <Checkbox size='small'/> Change to the Button from material ui <br />
+                <Checkbox size='small'/> Choose a component from material ui, for example this Checkbox <br />    
             </div>
         </div>,
     panel: 'panel6'  
